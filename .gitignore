@@ -1,0 +1,27 @@
+# Environments
+.env/
+.venv/
+source/.env/
+source/.venv/
+
+# Python builds and caches
+source/build/
+source/dist/
+source/__pycache__/
+source/patcher/**/__pycache__/
+source/*.spec
+
+# Temporary local app files
+main.js
+app/
+app_original.asar
+dist/
+.vscode/
+
+# AI agents
+.kimchi/
+.mimocode/
+
+antigravity
+agy_arm64_macos
+agy_x64_win.exe
